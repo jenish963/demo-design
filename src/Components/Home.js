@@ -5,6 +5,7 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import { Avatar, Box, Button, Container, Typography, IconButton } from '@mui/material';
 import plant from '../Assets/plant.png';
 import plant2 from '../Assets/plant2.png';
+import logo from '../Assets/logo.png';
 import plant3 from '../Assets/plant3.png';
 import testomonial from '../Assets/testomonial.png';
 import testomonial2 from '../Assets/testomonial2.png';
@@ -51,7 +52,7 @@ function Home() {
                 }
             }}>
                 <Box sx={{ display: 'flex', gap: 2, alignItems: 'center' }}>
-                    <Avatar src={plant} />
+                    <Avatar src={logo} />
                     <Typography sx={{ color: 'green', fontSize: { xs: '20px', md: '24px' } }}>Planity</Typography>
                 </Box>
                 <Box sx={{
